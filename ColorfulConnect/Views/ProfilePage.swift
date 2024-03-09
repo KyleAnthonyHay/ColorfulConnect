@@ -12,24 +12,15 @@ struct ProfilePage: View {
         VStack {
             Text("My Profile")
                 .font(.system(size: 24, weight: .bold, design: .default))
-                
             Spacer()
             ProfileView()
-            
             Spacer()
-            
             ProfileInfo()
-            
             Spacer()
-            
             CustomSegmentedControl()
-                
-            
             ImageGallery()
                 .padding(.bottom, 20)
-            
 //            NavBar()
-            
         }
         .padding(.horizontal)
     }

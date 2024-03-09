@@ -20,16 +20,17 @@ struct CustomSegmentedControl: View {
                     .cornerRadius(50)
             }
             
-            // Text "Video"
-            Text("Video")
-                .font(.custom("Inter", size: 18).weight(.semibold))
-                .foregroundColor(Color(red: 0.44, green: 0.42, blue: 0.42))
-            
-            // Text "Tagged"
-            Text("Tagged")
-                .font(.custom("Inter", size: 18).weight(.semibold))
-                .foregroundColor(Color(red: 0.44, green: 0.42, blue: 0.42))
+//            // Text "Video"
+//            Text("Video")
+//                .font(.custom("Inter", size: 18).weight(.semibold))
+//                .foregroundColor(Color(red: 0.44, green: 0.42, blue: 0.42))
+//            
+//            // Text "Tagged"
+//            Text("Tagged")
+//                .font(.custom("Inter", size: 18).weight(.semibold))
+//                .foregroundColor(Color(red: 0.44, green: 0.42, blue: 0.42))
         }
+        .padding(.bottom, 10)
     }
 }
 

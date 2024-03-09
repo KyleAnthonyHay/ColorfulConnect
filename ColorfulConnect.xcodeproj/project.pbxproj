@@ -17,6 +17,8 @@
 		85AFB8992B9C25380012E4AF /* ImageGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AFB8982B9C25380012E4AF /* ImageGallery.swift */; };
 		85AFB89B2B9C25490012E4AF /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AFB89A2B9C25490012E4AF /* NavBar.swift */; };
 		85AFB89D2B9C25770012E4AF /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AFB89C2B9C25770012E4AF /* ProfilePage.swift */; };
+		85AFB89F2B9C27F20012E4AF /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AFB89E2B9C27F20012E4AF /* LoginPage.swift */; };
+		85AFB8A42B9C2D830012E4AF /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AFB8A32B9C2D830012E4AF /* LoginForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		85AFB8982B9C25380012E4AF /* ImageGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGallery.swift; sourceTree = "<group>"; };
 		85AFB89A2B9C25490012E4AF /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
 		85AFB89C2B9C25770012E4AF /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		85AFB89E2B9C27F20012E4AF /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		85AFB8A32B9C2D830012E4AF /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 			children = (
 				85AFB87E2B9C24120012E4AF /* ContentView.swift */,
 				85AFB89C2B9C25770012E4AF /* ProfilePage.swift */,
+				85AFB89E2B9C27F20012E4AF /* LoginPage.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -92,6 +97,7 @@
 		85AFB88B2B9C242B0012E4AF /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				85AFB8A22B9C2D750012E4AF /* LoginPage */,
 				85AFB8922B9C24BB0012E4AF /* ProfileView.swift */,
 				85AFB8942B9C24D70012E4AF /* ProfileInfo.swift */,
 				85AFB8962B9C24F40012E4AF /* CustomSegmentControl.swift */,
@@ -99,6 +105,14 @@
 				85AFB89A2B9C25490012E4AF /* NavBar.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		85AFB8A22B9C2D750012E4AF /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				85AFB8A32B9C2D830012E4AF /* LoginForm.swift */,
+			);
+			path = LoginPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,9 +186,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				85AFB8992B9C25380012E4AF /* ImageGallery.swift in Sources */,
+				85AFB89F2B9C27F20012E4AF /* LoginPage.swift in Sources */,
 				85AFB87F2B9C24120012E4AF /* ContentView.swift in Sources */,
 				85AFB89D2B9C25770012E4AF /* ProfilePage.swift in Sources */,
 				85AFB8952B9C24D70012E4AF /* ProfileInfo.swift in Sources */,
+				85AFB8A42B9C2D830012E4AF /* LoginForm.swift in Sources */,
 				85AFB8932B9C24BB0012E4AF /* ProfileView.swift in Sources */,
 				85AFB89B2B9C25490012E4AF /* NavBar.swift in Sources */,
 				85AFB87D2B9C24120012E4AF /* ColorfulConnectApp.swift in Sources */,

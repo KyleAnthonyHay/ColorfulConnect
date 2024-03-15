@@ -2,7 +2,7 @@
 
 <img width="1024" alt="ColorfulConnect" src="https://github.com/KyleAnthonyHay/ColorfulConnect/assets/100221659/748fefc9-4222-4947-ac58-994422bb23a4">
 
-Welcome to **ColorfulConnect**, the vibrant and engaging social media app designed to bring a splash of color to your digital interactions. With a focus on creativity, connection, and community, ColorfulConnect offers a refreshing platform for users to express themselves, share their passions, and connect with like-minded individuals. Dive into a world of color where your social media experience is as unique and vibrant as you are.
+Welcome to **ColorfulConnect**, the vibrant and engaging social media app designed to bring a splash of color to your digital interactions.
 
 ## Key Features 🚀
 
